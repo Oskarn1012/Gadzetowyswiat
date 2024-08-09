@@ -40,5 +40,12 @@ nav ul li a {
     text-decoration: none;
     border-radius: 5px;
 }
-
 footer {
+    background-color: #333; /* Ciemne tło dla kontrastu */
+    color: #fff; /* Biały tekst */
+    text-align: center; /* Wyśrodkowanie tekstu */
+    padding: 10px 0; /* Odstęp wewnętrzny */
+    position: fixed; /* Umiejscowienie stopki na dole strony */
+    bottom: 0;
+    width: 100%; /* Szerokość na całą stronę */
+}
