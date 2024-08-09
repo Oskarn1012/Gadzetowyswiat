@@ -49,3 +49,38 @@ footer {
     bottom: 0;
     width: 100%; /* Szerokość na całą stronę */
 }
+
+.product-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px; /* Większy odstęp między produktami */
+}
+
+.product-item {
+    display: flex;
+    align-items: center; /* Wyrównanie zawartości w pionie */
+    gap: 20px; /* Odstęp między obrazem a opisem */
+}
+
+.product-image img {
+    max-width: 300px; /* Maksymalna szerokość obrazu */
+    height: auto; /* Automatyczne dostosowanie wysokości */
+}
+
+.product-details {
+    flex: 1; /* Wypełnienie dostępnej przestrzeni przez szczegóły produktu */
+}
+
+.buy-now {
+    background-color: #28a745; /* Zielone tło przycisku */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.buy-now:hover {
+    background-color: #218838; /* Ciemniejsze tło przycisku przy najechaniu */
+}
+
