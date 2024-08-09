@@ -67,9 +67,7 @@ footer {
     height: auto; /* Automatyczne dostosowanie wysokości */
 }
 
-.product-details {
-    flex: 1; /* Wypełnienie dostępnej przestrzeni przez szczegóły produktu */
-}
+
 
 .buy-now {
     background-color: #28a745; /* Zielone tło przycisku */
