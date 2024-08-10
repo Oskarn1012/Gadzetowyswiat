@@ -62,9 +62,9 @@ footer {
     gap: 20px; /* Odstęp między obrazem a opisem */
 }
 
-.product-image img {
+.product img {
     max-width: 600px; /* Maksymalna szerokość obrazu */
-    min-width: 600px; 
+    min-width: 599px; 
     height: auto; /* Automatyczne dostosowanie wysokości */
 }
 
