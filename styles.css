@@ -82,3 +82,7 @@ footer {
     background-color: #218838; /* Ciemniejsze tło przycisku przy najechaniu */
 }
 
+.logo img {
+    max-width: 100px; /* Zmniejsz szerokość logo */
+    height: auto; /* Utrzymanie proporcji */
+}
