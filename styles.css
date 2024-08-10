@@ -84,5 +84,6 @@ footer {
 
 .logo img {
     max-width: 230px; /* Zmniejsz szerokość logo */
+    min-width: 229px;
     height: auto; /* Utrzymanie proporcji */
 }
