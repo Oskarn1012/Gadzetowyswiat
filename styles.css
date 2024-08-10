@@ -63,7 +63,8 @@ footer {
 }
 
 .product-image img {
-    max-width: 300px; /* Maksymalna szerokość obrazu */
+    max-width: 600px; /* Maksymalna szerokość obrazu */
+    min-width: 600px; 
     height: auto; /* Automatyczne dostosowanie wysokości */
 }
 
